@@ -75,6 +75,7 @@ let string="Samiksha"
 for(let x of string){
     console.log(x)
 }
+// OBJECT CREATE
 const obj={
     name:"Samiksha",
     faculty:"BCA"
