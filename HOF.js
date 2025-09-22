@@ -37,4 +37,4 @@ console.log(newArray)
  })
  console.log(newfruits)
 
-
+//
