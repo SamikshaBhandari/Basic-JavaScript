@@ -49,10 +49,10 @@ for(let i=0;i<=10;i++){
 }
 
 //for of loop
-let arr=[1,2,3,4,5]
-for(let x of arr){
-    console.log(x)
-}
+// let arr=[1,2,3,4,5]
+// for(let x of arr){
+//     console.log(x)
+// }
 
 //sum using for of loop
 let sum=0
