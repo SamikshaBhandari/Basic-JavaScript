@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <div class="demo2"></div>
+    <div class="demo2"></div>
+    <div class="demo2"></div>
+    <div class="demo2"></div>
+
+    <h1></h1>
+    <script>
+      const demo = document.getElementById("demo");
+      demo.innerHTML = "Hello World";
+      document.getElementsByClassName("demo2")[0].innerHTML = "Hello samiksha";
+      document.getElementsByTagName("h1")[0].innerHTML = "Samiksha";
+
+      //   const res = (document.querySelector(".demo3").innerHTML = "hello demo");
+      document.querySelector("#demo").innerHTML = "hello sam";
+      document.querySelectorAll(".demo2")[1].innerHTML = "Please";
+      document.querySelectorAll(".demo2")[2].innerHTML = "HElo everyone";
+    </script>
+  </body>
+</html>
