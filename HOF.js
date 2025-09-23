@@ -19,22 +19,43 @@
 
 // const newarr= arrfor.map((num)=>{
 //     return num*5
-// })
-const newArray=arrfor.map((num)=>num*2)
-//  console.log(newarr)
-console.log(newArray)
- console.log(arrfor);
+// }
+
+//MAp
+// const newArray=arrfor.map((num)=>num*2)
+// //  console.log(newarr)
+// console.log(newArray)
+//  console.log(arrfor);
 
 
 
- const fruit=["Grapes","MAngo","Orange","Watermelon","kiwi","Apple"]
- const newfruits=fruit.map((fruits)=>{
-    return fruits
+//  const fruit=["Grapes","MAngo","Orange","Watermelon","kiwi","Apple"]
+//  const newfruits=fruit.map((fruits)=>{
+//     return fruits
 // if(fruits==fruit[0]){
 //     return fruit
 // }
 
- })
- console.log(newfruits)
+//  })
+//  console.log(newfruits)
 
-//
+
+ //filtering array
+
+ const num=[3,5,43,4,1,2,9,8,7,6];
+//  const result=num.filter((numfilter)=>{
+//     return(numfilter>10)
+//  })
+//  console.log(result)
+
+//  const number=["samiksha","Nirjala","karina","kjina"];
+//  const numberresult=number.filter((filter)=>{
+//     return (filter=="samiksha")
+//  })
+// console.log(numberresult)
+
+//Reduce 
+const resultReduce=num.reduce((pre,current)=>{
+    return pre+current
+},0)
+console.log(resultReduce)
