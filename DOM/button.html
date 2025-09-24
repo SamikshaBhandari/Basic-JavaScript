@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="demo">Color Change</h1>
+    <button id="red_btn">Red</button>
+    <button id="green_btn">Green</button>
+    <button id="blue_btn">Blue</button>
+    <button id="yellow_btn">Yellow</button>
+  </body>
+  <script>
+    const demo = document.getElementById("demo");
+    const red_btn = document.getElementById("red_btn");
+    const green_btn = document.getElementById("green_btn");
+    const blue_btn = document.getElementById("blue_btn");
+    const yellow_btn = document.getElementById("yellow_btn");
+
+    red_btn.addEventListener("click", () => {
+      demo.style.color = "red";
+      red_btn.style.backgroundColor = "red";
+    });
+    green_btn.addEventListener("click", () => {
+      demo.style.color = "green";
+      green_btn.style.backgroundColor = "Green";
+    });
+    blue_btn.addEventListener("click", () => {
+      demo.style.color = "blue";
+      blue_btn.style.backgroundColor = "blue";
+    });
+    yellow_btn.addEventListener("click", () => {
+      demo.style.color = "Yellow";
+      yellow_btn.style.backgroundColor = "yellow";
+    });
+  </script>
+</html>
